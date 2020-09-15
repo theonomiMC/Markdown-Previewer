@@ -1,0 +1,19 @@
+*, 
+*::before,
+*::after{
+  box-sizing: border-box;
+}
+html, body{
+  display:flex;
+  width:100%;
+  justify-content:center;
+  padding:20px;
+  /* height: calc(100vh – 143px); */
+  margin: 0 auto;
+}
+h1{
+  font-family: 'helvetica', cursive;
+  text-shadow: 2px 2px 4px gray;
+  text-align:center;
+  font-weight: 400;
+}
